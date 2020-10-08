@@ -1,0 +1,78 @@
+@font-face{
+    font-family: 'Proxima';
+    src: url(../font/ProximaNova-Regular.otf);
+}
+@font-face{
+    font-family: 'Proxima';
+    src: url(../font/Proxima\ Nova\ Bold.otf);
+    font-weight: bold;
+}
+:root{
+    font-family: 'Proxima' !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-family: 'Proxima' !important;
+}
+body{
+    background: #f2f2f2;
+    font-family: 'Proxima' !important;
+}
+.cover{
+    position: relative;
+    width: 1080px;
+    height: 1080px;
+
+    background: #FFFFFF;
+}
+.gambar img{
+    position: absolute;
+    width: 1080px;
+    height: 710px;
+    top: 0px;
+
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: center;
+}
+.replace{
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    position: absolute;
+    width: 1080px;
+    left: 0px;
+    bottom: 0px;
+}
+.desc{
+    position: absolute;
+    width: 960px;
+    height: 125px;
+    left: 60px;
+    top: 740px;
+
+    font-family: 'Proxima';
+    font-size: 32px; 
+    line-height: 43px;
+    color: #000;
+}
+.admin{
+    position: absolute;
+    height: 0px;
+    left: 272px;
+    top: 1050px;
+    
+    font-family: 'Proxima';
+    font-size: 16px;
+    line-height: 0px;
+    text-transform: uppercase;
+    
+    text-align: right;
+    letter-spacing: 0.20em;
+    
+    color: #FFFFFF;
+}

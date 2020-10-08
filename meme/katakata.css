@@ -1,0 +1,98 @@
+@font-face{
+    font-family: 'Proxima';
+    src: url(../font/ProximaNova-Regular.otf);
+}
+@font-face{
+    font-family: 'Proxima';
+    src: url(../font/Proxima\ Nova\ Bold.otf);
+    font-weight: bold;
+}
+:root{
+    font-family: 'Proxima' !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-family: 'Proxima' !important;
+}
+body{
+    background: #f2f2f2;
+    font-family: 'Proxima' !important;
+}
+.cover{
+    position: relative;
+    width: 1080px;
+    height: 1080px;
+
+    background: #FFFFFF;
+}
+.gambar img,
+.gambar-2 img{
+    position: absolute;
+    background: #fff;
+    width: 1080px;
+    height: 510px;
+
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: center;
+}
+.gambar img{
+    top: 0px;
+}
+.gambar-2 img{
+    top: 510px;
+}
+.replace,
+.replace-2{
+    background-position: center;
+    background-size: cover;
+}
+.kata-1,
+.kata-2{
+    position: absolute;
+    width: 980px;
+    height: auto;
+    left: 60px;
+
+    font-family: 'Proxima';
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ff6600;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 35px;
+    text-shadow: 2px 2px 2px #121212;
+}
+.kata-1{
+    bottom: 600px;
+}
+.kata-2{
+    bottom: 80px;
+}
+.box{
+    position: absolute;
+    width: 1080px;
+    left: 0px;
+    bottom: 0px;
+}
+.admin{
+    position: absolute;
+    height: 0px;
+    left: 272px;
+    top: 1050px;
+    
+    font-family: 'Proxima';
+    font-size: 16px;
+    line-height: 0px;
+    text-transform: uppercase;
+    
+    text-align: right;
+    letter-spacing: 0.20em;
+    
+    color: #FFFFFF;
+}

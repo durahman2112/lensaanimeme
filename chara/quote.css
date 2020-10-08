@@ -1,0 +1,115 @@
+@font-face{
+    font-family: 'Proxima';
+    src: url(../font/ProximaNova-Regular.otf);
+}
+@font-face{
+    font-family: 'Proxima';
+    src: url(../font/Proxima\ Nova\ Bold.otf);
+    font-weight: bold;
+}
+:root{
+    font-family: 'Proxima' !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-family: 'Proxima' !important;
+}
+body{
+    background: #f2f2f2;
+    font-family: 'Proxima' !important;
+}
+.cover{
+    position: relative;
+    width: 1080px;
+    height: 1080px;
+
+    background: #FFFFFF;
+}
+.logo{
+    position: relative;
+    left: 60px;
+    top: 83px;
+}
+.gambar img{
+    position: absolute;
+    width: 540px;
+    height: 1020px;
+    top: 0px;
+
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: right;
+}
+.replace{
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    position: absolute;
+    width: 1080px;
+    left: 0px;
+    bottom: 0px;
+}
+.quote{
+    position: absolute;
+    left: 540px;
+    top: 410px;
+    right: 60px;
+
+    font-family: 'Proxima';
+    font-size: 45px;
+    line-height: 53px;
+
+    text-transform: uppercase;
+
+    color: #000;
+}
+.name{
+    position: absolute;
+    left: 540px;
+    top: 927px;
+    right: 60px;
+
+    font-family: 'Proxima';
+    font-size: 33px;
+    line-height: 53px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: #ff6600;
+}
+.anime{
+    position: absolute;
+    left: 540px;
+    top: 960px;
+    right: 60px;
+
+    font-family: 'Proxima';
+    font-size: 25px;
+    line-height: 53px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: #000;
+}
+.admin{
+    position: absolute;
+    height: 0px;
+    left: 272px;
+    top: 1050px;
+    
+    font-family: 'Proxima';
+    font-size: 16px;
+    line-height: 0px;
+    text-transform: uppercase;
+    
+    text-align: right;
+    letter-spacing: 0.20em;
+    
+    color: #FFFFFF;
+}

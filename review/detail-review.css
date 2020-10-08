@@ -1,0 +1,133 @@
+@font-face{
+    font-family: 'Proxima';
+    src: url(../font/ProximaNova-Regular.otf);
+}
+@font-face{
+    font-family: 'Proxima';
+    src: url(../font/Proxima\ Nova\ Bold.otf);
+    font-weight: bold;
+}
+:root{
+    font-family: 'Proxima' !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-family: 'Proxima' !important;
+}
+body{
+    background: #f2f2f2;
+    font-family: 'Proxima' !important;
+}
+.cover{
+    position: relative;
+    width: 1080px;
+    height: 1080px;
+
+    background: #FFFFFF;
+}
+.gambar img{
+    position: absolute;
+    width: 1080px;
+    height: 558px;
+    top: 0px;
+
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: center;
+}
+.title{
+    position: absolute;
+    width: 960px;
+    left: 60px;
+    top: 600px;
+
+    font-family: 'Proxima';
+    font-size: 45px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: #ff6600;
+}
+.episode{
+    position: absolute;
+    width: 960px;
+    left: 60px;
+    top: 650px;
+
+    font-family: 'Proxima';
+    font-size: 25px;
+
+    text-transform: uppercase;
+
+    color: #000;
+}
+.studio{
+    position: absolute;
+    width: 960px;
+    left: 285px;
+    top: 650px;
+
+    font-family: 'Proxima';
+    font-size: 25px;
+
+    text-transform: uppercase;
+
+    color: #000;
+}
+.genre{
+    position: absolute;
+    width: 960px;
+    left: 60px;
+    top: 688px;
+
+    font-family: 'Proxima';
+    font-size: 25px;
+    font-style: italic;
+
+    text-transform: capitalize;
+
+    color: #000;
+}
+.sinopsis{
+    position: absolute;
+    width: 960px;
+    left: 60px;
+    top: 750px;
+
+    font-family: 'Proxima';
+    font-size: 30px;
+
+    text-transform: capitalize;
+
+    color: #000;
+}
+.replace{
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    position: absolute;
+    width: 1080px;
+    left: 0px;
+    bottom: 0px;
+}
+.admin{
+    position: absolute;
+    height: 0px;
+    left: 272px;
+    top: 1050px;
+    
+    font-family: 'Proxima';
+    font-size: 16px;
+    line-height: 0px;
+    text-transform: uppercase;
+    
+    text-align: right;
+    letter-spacing: 0.20em;
+    
+    color: #FFFFFF;
+}
