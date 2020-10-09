@@ -48,7 +48,13 @@ body {
 .btn{
     margin-top: 20px;
 }
-
+.btn-menu{
+    background: #ff6600;
+    color:#fff !important;
+}
+.btn-menu:hover{
+    background: #e65d01;
+}
 .float{
     position: fixed;
     width: 60px;
