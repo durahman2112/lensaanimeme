@@ -48,24 +48,17 @@ body {
 .btn{
     margin-top: 20px;
 }
-.btn-menu{
-    background: #ff6600;
-    color:#fff !important;
-}
-.btn-menu:hover{
-    background: #e65d01;
-}
 
 .float{
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #ff6600;
-    color: #fff;
-    border-radius: 50px;
-    text-align: center;
+    bottom: 24px;
+    right: 24px;
+    background-color: #ff6600 !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+    text-align: center !important;
     box-shadow: 2px 2px 3px #999;
 }
 
