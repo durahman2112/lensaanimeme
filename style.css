@@ -84,8 +84,8 @@ body {
         margin-bottom: 70px !important;
     }
     .scale{
-        transform: translateX(-350px) scale(0.3,0.3);
-        margin-top: -350px;
+        transform: translateX(-383px) scale(0.3,0.3);
+        margin-top: -340px;
         margin-bottom: -350px;
     }
     .scale-wide{
