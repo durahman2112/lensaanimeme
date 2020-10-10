@@ -1,3 +1,5 @@
+alert('testing 500')
+
 let nowTemplate,
     previewContent
 
