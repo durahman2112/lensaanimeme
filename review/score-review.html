@@ -18,7 +18,7 @@
             </div>
             <img class="box" src="img/review-score.png">
             <h1 class="title">kaguya-sama: love is war</h1>
-            <p class="score">6.7</p>
+            <p class="score"></p>
             <p class="story">8.6</p>
             <p class="chara">7.7</p>
             <p class="grafis">8.7</p>
@@ -83,12 +83,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <script>
-    let score = document.getElementsByClassName(score);
-    let story = document.getElementsByClassName(story);
-    let chara = document.getElementsByClassName(chara);
-    let grafis = document.getElementsByClassName(grafis);
-    let sound = document.getElementsByClassName(sound);
-    let enjoy = document.getElementsByClassName(enjoy);
+    var score = document.querySelector("p.score");
+    var story = document.querySelector("p.story");
+    var chara = document.querySelector("p.chara");
+    var grafis = document.querySelector("p.grafis");
+    var sound = document.querySelector("p.sound");
+    var enjoy = document.querySelector("p.enjoy");
         
     score.innerHTML = (story + chara + grafis + sound + enjoy)/5;
     
