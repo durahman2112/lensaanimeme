@@ -90,7 +90,12 @@
     var sound = document.querySelector("p.sound");
     var enjoy = document.querySelector("p.enjoy");
         
-    score.innerHTML = (story + chara + grafis + sound + enjoy)/5;
+    var a = (parseFloat(story.innerHTML) + 
+  parseFloat(chara.innerHTML) + 
+  parseFloat(grafis.innerHTML) + 
+  parseFloat(sound.innerHTML) + 
+  parseFloat(enjoy.innerHTML))/5;
+  score.innerHTML = a;
     
     </script>
     
