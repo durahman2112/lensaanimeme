@@ -55,6 +55,9 @@ body {
 .btn-menu:hover{
     background: #e65d01;
 }
+.btn-download{
+    width: 100% !important;
+}
 .float{
     position: fixed;
     width: 60px;
@@ -66,6 +69,23 @@ body {
     border-radius: 50px !important;
     text-align: center !important;
     box-shadow: 2px 2px 3px #999;
+}
+footer{
+    margin-top: 30px;
+}
+.footersatu{
+    background: #f7f7f7;
+    color: #2e2e2e;
+    width: 100%;
+    text-align: left;
+    padding: 30px;
+}
+footer p,a,li{
+    font-size: 12px;
+    text-decoration: none;
+}
+.footersatu a{
+    color: #2e2e2e;
 }
 
 @media screen and (max-height: 450px) {
@@ -79,9 +99,6 @@ body {
 @media screen and (max-width: 1000px){
     .form{
         margin-top: 20px;
-    }
-    footer{
-        margin-bottom: 70px !important;
     }
     .scale{
         transform: translateX(-383px) scale(0.3,0.3);
