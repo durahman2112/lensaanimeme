@@ -84,11 +84,14 @@ function preview(){
             //modal_download.download = p_judulContent_innerText.replace(/\s+/g, '') + today.getDate() + (today.getMonth() + 1) + today.getFullYear() + '.png'
             modal_download.download = today.getDate() + (today.getMonth() + 1) + today.getFullYear() + '.png'
             previewContent.classList.add('scale')
-        modal_preview.style.display = "none"
         })
         .catch(function (error) {
             console.error('oops, something went wrong!', error);
         });
+}
+function closeModal(){
+    let modal_preview = document.getElementById('modal_preview');
+    modal_preview.style.display = "none"
 }
 function includeHTML(file) {
     let elmnt, xhttp, input
