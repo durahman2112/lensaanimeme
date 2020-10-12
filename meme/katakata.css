@@ -53,12 +53,12 @@ body{
 .kata-1,
 .kata-2{
     position: absolute;
-    width: 980px;
+    width: 920px;
     height: auto;
     left: 60px;
 
     font-family: 'Proxima';
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     -webkit-text-stroke-width: 2px;
