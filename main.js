@@ -72,6 +72,7 @@ function preview(){
         today = new Date()
         
     previewContent.classList.remove('scale')
+    modal_preview.style.display = "unset"
     domtoimage.toPng(previewContent)
         .then(function (dataUrl) {
             // var img = new Image();
