@@ -18,15 +18,12 @@ div{
     font-family: 'Proxima' !important;
 }
 body{
-    background: #f2f2f2;
     font-family: 'Proxima' !important;
 }
 .cover{
     position: relative;
     width: 1080px;
     height: 1080px;
-
-    background: #FFFFFF;
 }
 .gambar img{
     position: absolute;
