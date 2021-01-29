@@ -82,7 +82,7 @@ function preview(){
             modal_preview_body.innerHTML = `<img class='img-fluid' src='${dataUrl}'>`
             modal_download.href = dataUrl
             //modal_download.download = p_judulContent_innerText.replace(/\s+/g, '') + today.getDate() + (today.getMonth() + 1) + today.getFullYear() + '.png'
-            modal_download.download = today.getDate() + (today.getMonth() + 1) + today.getFullYear() + '.png'
+            modal_download.download = 'lensaanimeme' + today.getDate() + '_' + (today.getMonth() + 1) + '_' + today.getFullYear() + '_' + today.getHours() + '_' + today.getMinutes() + '.png'
             previewContent.classList.add('scale')
         })
         .catch(function (error) {
